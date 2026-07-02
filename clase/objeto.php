@@ -10,7 +10,7 @@ class Objeto
     {
         $this->televisor = $televisor;
         $this->modelo = $modelo;
-        $this->garantia = $garantia;
+        $this->garantia = $garantia; 
         $this->valor = $valor;
     }
 

@@ -1,1 +1,2 @@
 # CHARIT MARIANA MARTINEZ BECERRA
+## En esta sesion de formacion empezamos abriendo highub y creamos un nuevo repositorio y creamos carpetas y lo guardamos con un commit , luego de eso realizamos unas funciones y unos metodos para practicar y aprendimos de ello y tambien nos explicaron un poco sobre programacion orientada a objetos 
