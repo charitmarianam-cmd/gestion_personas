@@ -4,7 +4,8 @@ class Persona
 {
     public function saludar()
     {
-        echo "Hola";
+        echo "Hola, mi nombre es";
     }
 }
+
 ?>
