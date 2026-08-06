@@ -2,13 +2,11 @@
 
 class Persona
 {
-    // Atributos privados
-    private $nombre;
-    private $apellido;
-    private $edad;
-    private $correo;
+    protected $nombre;
+    protected $apellido;
+    protected $edad;
+    protected $correo;
 
-    // Constructor
     public function __construct($nombre, $apellido, $edad, $correo)
     {
         $this->setNombre($nombre);
@@ -17,7 +15,6 @@ class Persona
         $this->setCorreo($correo);
     }
 
-    // Getters
     public function getNombre()
     {
         return $this->nombre;
@@ -38,7 +35,6 @@ class Persona
         return $this->correo;
     }
 
-    // Setters
     public function setNombre($nombre)
     {
         $this->nombre = $nombre;
@@ -62,9 +58,7 @@ class Persona
 
     public function saludar()
     {
-        return "Hola, Mi nombre es: " . $this->getNombre() . " " . $this->getApellido() . "<br>"
-            . "Mi Edad es: " . $this->getEdad() . "<br>"
-            . "Mi Correo es: " . $this->getCorreo() . "<br>";
+        return "Hola, Mi nombre es: " . $this->nombre . "<br>" ."Mi apellido es: " . "<br>"  . $this->apellido . "<br>" . "Mi Edad es: " . $this->edad . "<br>" . "Mi Correo es: " . $this->correo . "<br>";
     }
 }
 
