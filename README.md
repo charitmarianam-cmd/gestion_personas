@@ -1,2 +1,3 @@
 # CHARIT MARIANA MARTINEZ BECERRA
 ## En esta sesion de formacion empezamos abriendo highub y creamos un nuevo repositorio y creamos carpetas y lo guardamos con un commit , luego de eso realizamos unas funciones y unos metodos para practicar y aprendimos de ello y tambien nos explicaron un poco sobre programacion orientada a objetos 
+### Al realizar los cambios vemos que nos sale error en la pagina web y esto es por que como pusimos todos los atributos privados entonces no nos dejaba ingresar ya que deberiamos de llamar en estudiante como getNombre con el metodo que usamos

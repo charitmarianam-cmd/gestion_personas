@@ -6,7 +6,7 @@ class Estudiante extends Persona
 
 public function saludar ()
 {
-    return "Hola, Mi nombre es: " . $this->nombre . " " . $this->apellido . "<br>" ."Mi Edad es: " . $this->edad . "<br>" ."Mi Correo es: " . $this->correo ."<br>" . "Y soy un estudiante";
+    return "Hola, Mi nombre es: " . $this->getNombre() . " " . $this->getApellido() . "<br>" ."Mi Edad es: " . $this->getEdad() . "<br>" ."Mi Correo es: " . $this->getCorreo() ."<br>" . "Y soy un estudiante";
 }
 
 }
